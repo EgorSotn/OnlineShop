@@ -1,0 +1,11 @@
+Index: .gitignore
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	
++++ b/.gitignore	
+@@ -1,2 +1,2 @@
+ /.idea/
+-/security-server/
+\ No newline at end of file
++/.security-server/
+\ No newline at end of file

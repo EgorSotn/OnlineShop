@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1086e59d-9f91-4c73-945b-90bc8025ebc9" name="Changes" comment="876">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="module-info" />
+        <option value="com.haulmont.jpb.NewClass" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/SecurityServerApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/controller/config/JwkConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/controller/config/PasswordConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/controller/config/SecurityConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/controller/config/UserAuthenticationProvider.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/domain/AppUser.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/repository/AppUserRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/repository/RoleRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/service/AppUserServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/service/CustomUserDetailsService.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2GMsP7rj1U5ZYK6Qp6Fn7OfwNeE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Poject_ALL/Projekt java/OnlineShop/realms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;97aff522d09963e85df86c6bddfb285c&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Poject_ALL\Projekt java\OnlineShop\realms" />
+      <recent name="D:\Poject_ALL\Projekt java\OnlineShop\image-service\src\main\java\ru\sotn\imageservice\config" />
+      <recent name="D:\Poject_ALL\Projekt java\OnlineShop\transaction-service\src\main\java\ru\sotn\transactionservice\config" />
+      <recent name="D:\Poject_ALL\Projekt java\OnlineShop\security-server\src\main\java\ru\sotn\securityserver\controller\config" />
+      <recent name="D:\Poject_ALL\Projekt java\OnlineShop\notification-service\src\main\java\ru\sotn\notificationservice\model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Poject_ALL\Projekt java\OnlineShop\image-service\src\main\resources\static" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.sotn.notificationservice.service" />
+      <recent name="ru.sotn.transactionservice.controller" />
+      <recent name="ru.sotn.transactionservice.feign" />
+      <recent name="ru.sotn.transactionservice.service" />
+      <recent name="ru.sotn.orderservice.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.sotn.imageservice.config" />
+      <recent name="ru.sotn.transactionservice.config" />
+      <recent name="ru.sotn.orderservice.config" />
+      <recent name="ru.sotn.securityserver.controller.config" />
+      <recent name="ru.sotn.notificationservice.model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="CatalogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="catalog-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.sotn.catalogservice.CatalogServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaDiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.sotn.eurekadiscoveryserver.EurekaDiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatwaySecurityServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gatway-security-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.sotn.gatwaysecurityserver.GatwaySecurityServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="image-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.sotn.imageservice.ImageServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.sotn.notificationservice.NotificationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.sotn.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="security-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.sotn.securityserver.SecurityServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="transaction-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.sotn.transactionservice.TransactionServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.image-dockerfile: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="image-dockerfile" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.notification-dockerfile: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="notification-dockerfile" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.order-dockerfile: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="order-dockerfile" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.transaction-dockerfile: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="transaction-dockerfile" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml.image-dockerfile: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.notification-dockerfile: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.order-dockerfile: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.transaction-dockerfile: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+      <item itemvalue="Spring Boot.ImageServiceApplication" />
+      <item itemvalue="Spring Boot.CatalogServiceApplication" />
+      <item itemvalue="Spring Boot.GatwaySecurityServerApplication" />
+      <item itemvalue="Spring Boot.EurekaDiscoveryServerApplication" />
+      <item itemvalue="Spring Boot.NotificationServiceApplication" />
+      <item itemvalue="Spring Boot.SecurityServerApplication" />
+      <item itemvalue="Spring Boot.TransactionServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.transaction-dockerfile: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.image-dockerfile: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.notification-dockerfile: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.order-dockerfile: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1086e59d-9f91-4c73-945b-90bc8025ebc9" name="Changes" comment="" />
+      <created>1666209760093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666209760093</updated>
+      <workItem from="1666209761886" duration="29076000" />
+      <workItem from="1666370684673" duration="27238000" />
+      <workItem from="1666792487958" duration="20468000" />
+      <workItem from="1666891680151" duration="18683000" />
+      <workItem from="1667135306077" duration="8355000" />
+      <workItem from="1667144003766" duration="36751000" />
+      <workItem from="1667304037295" duration="19264000" />
+      <workItem from="1667334210626" duration="47000" />
+      <workItem from="1667334265251" duration="13159000" />
+      <workItem from="1667487753311" duration="31905000" />
+      <workItem from="1667646141985" duration="5783000" />
+      <workItem from="1667653670598" duration="477000" />
+      <workItem from="1667654247092" duration="15922000" />
+      <workItem from="1667765182393" duration="896000" />
+      <workItem from="1667824088251" duration="26460000" />
+      <workItem from="1667924193238" duration="21891000" />
+      <workItem from="1668027620722" duration="84000" />
+      <workItem from="1668027726281" duration="124000" />
+      <workItem from="1668027870852" duration="33000" />
+      <workItem from="1668027923445" duration="49000" />
+      <workItem from="1668027993400" duration="142000" />
+      <workItem from="1668028161367" duration="1473000" />
+      <workItem from="1668069019724" duration="18380000" />
+      <workItem from="1668163617844" duration="3411000" />
+      <workItem from="1668190118397" duration="30512000" />
+      <workItem from="1668347592693" duration="13403000" />
+      <workItem from="1668366406046" duration="22054000" />
+      <workItem from="1668527272659" duration="34815000" />
+      <workItem from="1668611750333" duration="161000" />
+      <workItem from="1668611930778" duration="2313000" />
+      <workItem from="1668614346994" duration="133000" />
+      <workItem from="1668623232044" duration="35944000" />
+      <workItem from="1668780386954" duration="125000" />
+      <workItem from="1668780538542" duration="11332000" />
+      <workItem from="1668803261598" duration="3830000" />
+      <workItem from="1668807199755" duration="12236000" />
+      <workItem from="1668853349963" duration="5351000" />
+      <workItem from="1668860418642" duration="1653000" />
+      <workItem from="1668875793416" duration="9411000" />
+      <workItem from="1668889384610" duration="96000" />
+      <workItem from="1668939573402" duration="1800000" />
+      <workItem from="1668942029419" duration="2064000" />
+      <workItem from="1668944203812" duration="2123000" />
+      <workItem from="1668947029681" duration="3319000" />
+      <workItem from="1668950417542" duration="192000" />
+      <workItem from="1668950926904" duration="2641000" />
+      <workItem from="1668974307606" duration="490000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1667337346926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667337346926</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1667913612445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667913612446</updated>
+    </task>
+    <task id="LOCAL-00003" summary="876">
+      <created>1668951266686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668951266686</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/configuration-server" />
+      <path value="$PROJECT_DIR$/catalog-service" />
+      <path value="$PROJECT_DIR$/eureka-discovery-server" />
+      <path value="$PROJECT_DIR$/gatway-security-server" />
+      <path value="$PROJECT_DIR$/image-service" />
+      <path value="$PROJECT_DIR$/notification-service" />
+      <path value="$PROJECT_DIR$/order-service" />
+      <path value="$PROJECT_DIR$/security-server" />
+      <path value="$PROJECT_DIR$/transaction-service" />
+    </ignored-roots>
+    <MESSAGE value="init" />
+    <MESSAGE value="876" />
+    <option name="LAST_COMMIT_MESSAGE" value="876" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/service/ClotheServiceImpl.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/service/ClotheServiceImpl.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/main/java/ru/sotn/orderservice/service/OrderServiceImpl.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/notification-service/src/main/java/ru/sotn/notificationservice/service/NotificationServiceImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/main/java/ru/sotn/orderservice/controller/PaymentController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/controller/config/UserAuthenticationProvider.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/service/CustomUserDetailsService.java</url>
+          <line>26</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/security-server/src/main/java/ru/sotn/securityserver/controller/config/SecurityConfig.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/controller/ClotheController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/service/ClotheServiceImpl.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/image-service/src/main/java/ru/sotn/imageservice/controller/ImageController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/image-service/src/main/java/ru/sotn/imageservice/service/ImageServiceImpl.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/image-service/src/main/java/ru/sotn/imageservice/controller/ImageController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/currency/MyConvertClient.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/currency/MyConvertClient.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/client/RequestCurrency.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/config/RealmRoleConverter.java</url>
+          <line>1</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/image-service/src/main/java/ru/sotn/imageservice/service/ImageServiceImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/image-service/src/main/java/ru/sotn/imageservice/service/ImageServiceImpl.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/test/java/ru/sotn/orderservice/controller/OrderControllerTest.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/test/java/ru/sotn/orderservice/service/MapToDtoImplTest.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/test/java/ru/sotn/transactionservice/controller/TransactionOrderControllerTest.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/notification-service/src/test/java/ru/sotn/notificationservice/service/NotificationServiceImplKafkaTest.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/test/java/ru/sotn/transactionservice/service/TransactionServiceKafkaSendTest.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/security/RealmRoleConverter.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/OAuth2FeignRequestInterceptor.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/main/java/ru/sotn/orderservice/service/PaymentServiceImpl.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/client/OrderTransactionClient.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="reactor.core.publisher.MonoMapFuseable" memberName="source" />
+        <PinnedItemInfo parentTag="reactor.core.publisher.MonoFlatMap" memberName="optimizableOperator" />
+        <PinnedItemInfo parentTag="reactor.core.publisher.MonoFlatMap" memberName="mapper" />
+        <PinnedItemInfo parentTag="ru.sotn.transactionservice.model.CurrencyResponse" memberName="result" />
+        <PinnedItemInfo parentTag="org.springframework.kafka.listener.KafkaMessageListenerContainer" memberName="afterRollbackProcessor" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((DefaultWebTestClient)webTestClient).wiretapConnector" custom="org.springframework.test.web.reactive.server.DefaultWebTestClient" />
+        <watch expression="((DispatcherHandler)((WebHttpHandlerBuilder)((DefaultWebTestClientBuilder)((DefaultWebTestClient)webTestClient).builder).httpHandlerBuilder).webHandler).handlerMappings" custom="org.springframework.test.web.reactive.server.DefaultWebTestClient,org.springframework.web.server.adapter.WebHttpHandlerBuilder,org.springframework.test.web.reactive.server.DefaultWebTestClientBuilder,org.springframework.web.reactive.DispatcherHandler" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

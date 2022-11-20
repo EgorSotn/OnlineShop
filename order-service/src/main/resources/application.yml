@@ -1,0 +1,55 @@
+server:
+  port: 8086
+
+stripe:
+  secret-key: pk_test_51LyhseC8rqdIteMdueiHpwmIk4dyJZZwU3MGICZkMT3hfyLSFQQ1hsvKOd4a6PsKnAmLs9Q4HTpNXMmJ3KTLENk100Ns90Zeek
+  public-key: sk_test_51LyhseC8rqdIteMdLbjoCjO4si4b6AOOFuFcV3VPMSTA0RmIN2ABJFQAg8U6tDBD6LW7kCLRWNRz346RgF2AAa5500M2Iyws2d
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+
+spring:
+  application:
+    name: order-service
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/OrderDB
+    username: postgres
+    password: westa852
+  sql:
+    init:
+      mode: always
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        show_sql: true
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8888/auth/realms/online-shope-microservice-realm/protocol/openid-connect/certs
+#  kafka:
+#    bootstrap-servers: localhost:9092
+#    template.default-topic: transactionTopic
+#    producer:
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+#      properties:
+#        spring:
+#          json:
+#            type:
+#              mapping: event:ru.sotn.orderservice.controller.dto.OrderDto

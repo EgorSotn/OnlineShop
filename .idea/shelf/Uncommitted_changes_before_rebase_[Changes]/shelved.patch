@@ -1,0 +1,16 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/.idea/\r\n/security-server/
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision b5133fe00203c1ebadd66a756a42dbb0c35933c1)
++++ b/.gitignore	(date 1668974513919)
+@@ -1,2 +1,2 @@
+ /.idea/
+-/security-server/
+\ No newline at end of file
++/.security-server/
+\ No newline at end of file
