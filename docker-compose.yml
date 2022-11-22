@@ -91,6 +91,15 @@ services:
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
 
+  ## SFTP Server
+  sftp-server:
+    container_name: sftp-server
+    image: atmoz/sftp
+    volumes:
+      -   ../image/upload:/home/foo/upload
+    ports:
+      - "2222:22"
+    command: foo:pass:1001
 
   ## Eureka Server
   eureka-dockerfile:
@@ -175,6 +184,7 @@ services:
     environment:
       - SPRING_PROFILES_ACTIVE=docker
     depends_on:
+      - sftp-server
       - eureka-dockerfile
       - gateway-dockerfile
 

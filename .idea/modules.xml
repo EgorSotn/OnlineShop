@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/OnlineShop.iml" filepath="$PROJECT_DIR$/.idea/OnlineShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/catalog-service/catalog-service.iml" filepath="$PROJECT_DIR$/catalog-service/catalog-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-discovery-server/eureka-discovery-server.iml" filepath="$PROJECT_DIR$/eureka-discovery-server/eureka-discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gatway-security-server/gatway-security-server.iml" filepath="$PROJECT_DIR$/gatway-security-server/gatway-security-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/image-service/image-service.iml" filepath="$PROJECT_DIR$/image-service/image-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notification-service/notification-service.iml" filepath="$PROJECT_DIR$/notification-service/notification-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-server/security-server.iml" filepath="$PROJECT_DIR$/security-server/security-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transaction-service/transaction-service.iml" filepath="$PROJECT_DIR$/transaction-service/transaction-service.iml" />
+    </modules>
+  </component>
+</project>

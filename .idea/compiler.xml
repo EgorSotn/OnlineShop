@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gatway-security-server" />
+        <module name="eureka-discovery-server" />
+        <module name="catalog-service" />
+        <module name="transaction-service" />
+        <module name="order-service" />
+        <module name="image-service" />
+        <module name="notification-service" />
+        <module name="security-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="catalog-service" target="17" />
+      <module name="eureka-discovery-server" target="17" />
+      <module name="gatway-security-server" target="17" />
+      <module name="image-service" target="17" />
+      <module name="notification-service" target="17" />
+      <module name="order-service" target="17" />
+      <module name="security-server" target="17" />
+      <module name="transaction-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="catalog-service" options="-parameters" />
+      <module name="eureka-discovery-server" options="-parameters" />
+      <module name="gatway-security-server" options="-parameters" />
+      <module name="image-service" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="security-server" options="-parameters" />
+      <module name="transaction-service" options="-parameters" />
+    </option>
+  </component>
+</project>

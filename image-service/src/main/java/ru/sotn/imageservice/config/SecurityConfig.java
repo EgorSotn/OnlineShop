@@ -23,8 +23,6 @@ public class SecurityConfig {
                 .antMatchers( "/file/**").hasAnyRole( "ADMIN", "MANAGER", "USER")
                 .anyRequest().authenticated()
                 .and()
-                .cors()
-                .and()
                 .csrf()
                 .disable()
                 .oauth2ResourceServer()

@@ -24,15 +24,24 @@ public class ImageController {
     @PostMapping("/upload/toclothe/{id}")
     @ResponseStatus(HttpStatus.OK)
     public String uploadFile(@RequestParam(value = "file") MultipartFile file,
-                                   @PathVariable Long id) throws IOException {
+                                   @PathVariable Long id)  {
 
-        return imageService.uploadFile(file, id);
+        try {
+            return imageService.uploadFile(file, id);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @GetMapping("/download/{id}/{fileName}")
     public ResponseEntity<ByteArrayResource> downloadFile(@PathVariable("fileName") String fileName,
-                                                          @PathVariable Long id) throws IOException {
-        byte[] data = imageService.downloadFile(fileName, id );
+                                                          @PathVariable Long id) {
+        byte[] data = new byte[0];
+        try {
+            data = imageService.downloadFile(fileName, id );
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         ByteArrayResource resource = new ByteArrayResource(data);
         return ResponseEntity
                 .ok()
@@ -44,7 +53,13 @@ public class ImageController {
 
     @DeleteMapping("/delete/{id}/{fileName}")
     public ResponseEntity<String> deleteFile(@PathVariable("fileName") String fileName,
-                                             @PathVariable Long id) throws IOException {
-        return new ResponseEntity<>(imageService.deleteFile(fileName, id), HttpStatus.OK);
+                                             @PathVariable Long id){
+        try {
+            String deleteNameFile = imageService.deleteFile(fileName, id);
+
+            return new ResponseEntity<>("Success delete: " + deleteNameFile, HttpStatus.OK);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
