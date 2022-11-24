@@ -56,8 +56,11 @@ public class MapClotheToDtoImpl implements MapClotheToDto{
         clothe.setNameCloth(clotheDto.getNameCloth());
         clothe.setColorCloth(clotheDto.getColorCloth());
         clothe.setQuantity(clotheDto.getQuantity());
-        clothe.setDescription(new Description(clotheDto.getDescription().getTextile(),
-                clotheDto.getDescription().getAboutCloth()));
+        if(clotheDto.getDescription() != null){
+            clothe.setDescription(new Description(clotheDto.getDescription().getTextile(),
+                    clotheDto.getDescription().getAboutCloth()));
+        }
+
         clothe.setSizes(sizes);
         clothe.setImages(imageList);
         return clothe;

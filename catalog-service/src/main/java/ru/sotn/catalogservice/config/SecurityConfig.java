@@ -39,8 +39,6 @@ public class SecurityConfig  extends WebSecurityConfigurerAdapter {
                 .antMatchers(HttpMethod.GET, "/api/clothe/**").hasAnyRole("USER")
                 .anyRequest().authenticated()
                 .and()
-                .cors()
-                .and()
                 .csrf()
                 .disable()
                 .oauth2ResourceServer()

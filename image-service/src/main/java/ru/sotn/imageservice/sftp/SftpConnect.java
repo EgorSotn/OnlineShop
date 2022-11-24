@@ -11,16 +11,13 @@ import java.io.IOException;
 
 public class SftpConnect {
     private SSHClient sshClient;
-
     private final String username;
-
     private final String password;
-
     private final String host;
-
     private final String port;
 
-    public SftpConnect(@Value("${sftp.username}") String username, @Value("${sftp.password}") String password, @Value("${sftp.host}") String host, @Value("${sftp.port}") String port) {
+    public SftpConnect(@Value("${sftp.username}") String username, @Value("${sftp.password}") String password,
+                       @Value("${sftp.host}") String host, @Value("${sftp.port}") String port) {
         this.username = username;
         this.password = password;
         this.host = host;

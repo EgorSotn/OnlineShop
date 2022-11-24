@@ -6,15 +6,13 @@ import org.hibernate.annotations.FetchMode;
 
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 @Entity
 @Table(name = "clothes",uniqueConstraints = @UniqueConstraint(columnNames = {"name_cloth", "color_cloth" }))
 @Getter
 @Setter
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class Clothe {
@@ -41,6 +39,7 @@ public class Clothe {
             inverseJoinColumns = @JoinColumn(name = "id_size"))
     private Set<Size> sizes = new HashSet<>();
 
+    @Fetch(FetchMode.JOIN)
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "clothe")
     private List<Image> images = new ArrayList<>();
 
@@ -61,4 +60,5 @@ public class Clothe {
         this.description = description;
         this.gender = gender;
     }
+
 }

@@ -79,7 +79,7 @@ public class ClotheServiceImpl implements ClotheService{
     @Override
     @Transactional( readOnly = true)
     public List<Clothe> getAllClothe() {
-
+        List<Clothe> list = clotheRepository.findAll();
         return clotheRepository.findAll();
     }
 

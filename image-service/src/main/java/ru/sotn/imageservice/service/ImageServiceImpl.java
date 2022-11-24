@@ -31,7 +31,8 @@ public class ImageServiceImpl implements ImageService{
     private final SftpConnect sftpConnect;
     private final CatalogRestFeign catalogRestFeign;
 
-    public ImageServiceImpl(@Value("${upload.path}") String localDir, @Value("${sftp.remoteDir}") String remoteDir, SftpConnect sftpConnect, CatalogRestFeign catalogRestFeign) {
+    public ImageServiceImpl(@Value("${upload.path}") String localDir,
+                            @Value("${sftp.remoteDir}") String remoteDir, SftpConnect sftpConnect, CatalogRestFeign catalogRestFeign) {
         this.localDir = localDir;
         this.remoteDir = remoteDir;
         this.sftpConnect = sftpConnect;
@@ -51,6 +52,7 @@ public class ImageServiceImpl implements ImageService{
         sftpClient.close();
         sshClient.disconnect();
 
+        deleteLocalFile(convFile);
 
 
         return file.getOriginalFilename();
@@ -70,6 +72,7 @@ public class ImageServiceImpl implements ImageService{
         ByteArrayResource resource = new ByteArrayResource(Files.readAllBytes(path));
         sftpClient.close();
         sshClient.disconnect();
+        deleteLocalFile(path.toFile());
         return resource.getByteArray();
 
     }

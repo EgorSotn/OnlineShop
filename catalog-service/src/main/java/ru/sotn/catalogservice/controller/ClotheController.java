@@ -18,7 +18,6 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api")
-//@Api(description = "clothes")
 public class ClotheController {
     private final ClotheService clotheService;
 
@@ -37,7 +36,7 @@ public class ClotheController {
         clotheService.deleteClothe(id);
         return new ResponseEntity<>(HttpStatus.OK);
     }
-    @PostMapping("/clothe/create")
+    @PostMapping("/clothe")
     public ResponseEntity<Clothe> createClothe(@RequestBody ClotheDto clotheDto){
         return new ResponseEntity<>(clotheService.createClothe(clotheDto), HttpStatus.CREATED);
     }
