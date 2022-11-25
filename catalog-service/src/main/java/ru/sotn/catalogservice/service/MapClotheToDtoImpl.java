@@ -31,6 +31,7 @@ public class MapClotheToDtoImpl implements MapClotheToDto{
             imageDtoList.add(imageDto);
         });
         return ClotheDto.builder()
+                .id(clothe.getId())
                 .colorCloth(clothe.getColorCloth())
                 .nameCloth(clothe.getNameCloth())
                 .description(DescriptionDto.builder()

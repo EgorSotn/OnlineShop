@@ -22,7 +22,7 @@ import java.util.Set;
 public final class ClotheDto implements Serializable {
 
 
-
+    private  Long id;
     private  String nameCloth;
     private  String colorCloth;
     private  Long quantity;
