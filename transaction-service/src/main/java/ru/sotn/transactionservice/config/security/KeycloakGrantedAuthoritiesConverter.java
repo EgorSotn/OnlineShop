@@ -20,7 +20,7 @@ import static java.util.Collections.emptySet;
 public class KeycloakGrantedAuthoritiesConverter implements Converter<Jwt, Collection<GrantedAuthority>> {
     private static final String ROLES = "roles";
     private static final String CLAIM_REALM_ACCESS = "realm_access";
-    private static final String RESOURCE_ACCESS = "resource_access";
+
 
     private final Converter<Jwt, Collection<GrantedAuthority>> defaultAuthoritiesConverter = new JwtGrantedAuthoritiesConverter();
 

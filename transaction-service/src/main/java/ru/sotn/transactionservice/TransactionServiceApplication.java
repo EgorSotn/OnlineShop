@@ -10,7 +10,6 @@ import org.springframework.web.reactive.config.EnableWebFlux;
 
 @SpringBootApplication
 @EnableEurekaClient
-
 @EnableWebFlux
 @EnableCaching
 @EnableScheduling

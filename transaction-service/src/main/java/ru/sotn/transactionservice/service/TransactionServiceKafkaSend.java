@@ -17,6 +17,8 @@ import ru.sotn.transactionservice.model.PaymentDto;
 import ru.sotn.transactionservice.stripe.StripeClient;
 
 
+import java.util.Objects;
+
 import static ru.sotn.transactionservice.config.ConstKafka.NAME_TOPIC_CONSUMER_NOTIFICATION;
 
 
@@ -39,7 +41,7 @@ public class TransactionServiceKafkaSend implements TransactionService{
         Long amount = OrderUtil.calculateOrderAmountInCents(orderDto);
         Mono<CurrencyResponse> currencyResponse = convertCurrency.convertCurrency("USD", "RUB", amount.toString());
         Charge charge = new Charge();
-        Double usd = Double.parseDouble(currencyResponse.map(CurrencyResponse::getInfo).map(CurrencyResponse.Info::getQuote).block());
+        Double usd = Double.parseDouble(Objects.requireNonNull(currencyResponse.map(CurrencyResponse::getInfo).map(CurrencyResponse.Info::getQuote).block()));
         if(token != null){
              charge = stripeClient.chargeNewCard(token, amount*
                      Double.parseDouble(currencyResponse.block().getInfo().getQuote()));
@@ -54,5 +56,4 @@ public class TransactionServiceKafkaSend implements TransactionService{
         log.info("kafa send massage: {}", orderDto.getEmail());
         return paymentDto;
     }
-
 }

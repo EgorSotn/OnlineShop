@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1086e59d-9f91-4c73-945b-90bc8025ebc9" name="Changes" comment="sftp">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_resource_server_2_7_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_7_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_resource_server_5_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_3.xml" beforeDir="false" />
+    <list default="true" id="1086e59d-9f91-4c73-945b-90bc8025ebc9" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/catalog-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/catalog-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/controller/ClotheController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/controller/ClotheController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/domain/Clothe.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/domain/Clothe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/service/ClotheServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/service/ClotheServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/service/MapClotheToDtoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/service/MapClotheToDtoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-service/src/main/java/ru/sotn/imageservice/service/ImageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/image-service/src/main/java/ru/sotn/imageservice/service/ImageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-service/src/main/java/ru/sotn/imageservice/sftp/SftpConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/image-service/src/main/java/ru/sotn/imageservice/sftp/SftpConnect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/ru/sotn/orderservice/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/ru/sotn/orderservice/config/WebClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/controller/ExceptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/controller/ExceptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/ru/sotn/orderservice/service/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/ru/sotn/orderservice/service/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/TransactionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/TransactionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/security/KeycloakConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/security/KeycloakConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/security/KeycloakGrantedAuthoritiesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/security/KeycloakGrantedAuthoritiesConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/controller/TransactionOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/controller/TransactionOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/service/TransactionServiceKafkaSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/service/TransactionServiceKafkaSend.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +137,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
+  <component name="RunManager" selected="Spring Boot.TransactionServiceApplication">
     <configuration name="CatalogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="catalog-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.sotn.catalogservice.CatalogServiceApplication" />
@@ -347,7 +338,8 @@
       <workItem from="1669132699761" duration="516000" />
       <workItem from="1669152997737" duration="7866000" />
       <workItem from="1669218574361" duration="166000" />
-      <workItem from="1669220199580" duration="6808000" />
+      <workItem from="1669220199580" duration="12207000" />
+      <workItem from="1669304339270" duration="12343000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667337346926</created>
@@ -377,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669124494606</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix">
+      <created>1669282123405</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669282123405</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +413,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="876" />
     <MESSAGE value="sftp" />
-    <option name="LAST_COMMIT_MESSAGE" value="sftp" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -426,7 +426,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/order-service/src/main/java/ru/sotn/orderservice/service/OrderServiceImpl.java</url>
-          <line>31</line>
+          <line>33</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

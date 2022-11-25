@@ -48,10 +48,13 @@ public class MapClotheToDtoImpl implements MapClotheToDto{
             sizes.add(size);
         });
         List<Image> imageList = new ArrayList<>();
-        clotheDto.getImages().stream().forEach(i->{
-            Image image = new Image(i.getUrl());
-            imageList.add(image);
-        });
+        if(clotheDto.getImages()!=null){
+            clotheDto.getImages().stream().forEach(i->{
+                Image image = new Image(i.getUrl());
+                imageList.add(image);
+            });
+        }
+
         Clothe clothe = new Clothe();
         clothe.setNameCloth(clotheDto.getNameCloth());
         clothe.setColorCloth(clotheDto.getColorCloth());

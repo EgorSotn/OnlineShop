@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface ClotheService {
     Clothe createClothe(ClotheDto clothe);
-    Clothe updateClothe(ClotheDto clothe);
+    Clothe updateClothe(ClotheDto clothe, Long id);
     List<Clothe> getAllClothe();
     Clothe getClotheById(Long id);
     void deleteClothe(Long id);

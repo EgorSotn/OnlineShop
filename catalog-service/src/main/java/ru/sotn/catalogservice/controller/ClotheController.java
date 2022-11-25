@@ -41,9 +41,9 @@ public class ClotheController {
         return new ResponseEntity<>(clotheService.createClothe(clotheDto), HttpStatus.CREATED);
     }
 
-    @PutMapping("/clothe/update")
-    public ResponseEntity<Clothe> updateClothe(@RequestBody ClotheDto clotheDto){
-        return new ResponseEntity<>(clotheService.updateClothe(clotheDto), HttpStatus.OK);
+    @PutMapping("/clothe/update/{id}")
+    public ResponseEntity<Clothe> updateClothe(@RequestBody ClotheDto clotheDto, @PathVariable(name = "id") Long id){
+        return new ResponseEntity<>(clotheService.updateClothe(clotheDto, id), HttpStatus.OK);
     }
 
 }

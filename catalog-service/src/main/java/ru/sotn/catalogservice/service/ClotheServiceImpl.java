@@ -48,9 +48,9 @@ public class ClotheServiceImpl implements ClotheService{
 
     @Transactional
     @Override
-    public Clothe updateClothe(ClotheDto updateClotheDto) {
+    public Clothe updateClothe(ClotheDto updateClotheDto, Long id) {
         Clothe updateClothe = mapClotheToDto.mapDtoToClothe(updateClotheDto);
-        Clothe findClothe = clotheRepository.findById(updateClothe.getId()).orElseThrow(()->new NoSuchElementException());
+        Clothe findClothe = clotheRepository.findById(id).orElseThrow(()->new NoSuchElementException());
 
         findClothe.setNameCloth(updateClothe.getNameCloth());
         findClothe.setColorCloth(updateClothe.getColorCloth());

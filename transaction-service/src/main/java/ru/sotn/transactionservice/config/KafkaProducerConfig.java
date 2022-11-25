@@ -1,4 +1,4 @@
-//package ru.sotn.transactionservice.config;
+    //package ru.sotn.transactionservice.config;
 //
 //import org.apache.kafka.clients.producer.ProducerConfig;
 //import org.apache.kafka.common.serialization.LongSerializer;
