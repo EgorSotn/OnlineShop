@@ -4,189 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1086e59d-9f91-4c73-945b-90bc8025ebc9" name="Changes" comment="add git ignore">
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/CatalogServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/controller/ClotheController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/controller/ClotheImageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/controller/ExceptionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/controller/dto/ClotheDto$ClotheDtoBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/controller/dto/ClotheDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/controller/dto/DescriptionDto$DescriptionDtoBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/controller/dto/DescriptionDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/controller/dto/ImageDto$ImageDtoBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/controller/dto/ImageDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/controller/dto/SizeDto$SizeDtoBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/controller/dto/SizeDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/domain/Clothe.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/domain/Description.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/domain/Gender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/domain/Image.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/domain/Size.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/exception/NotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/repository/ClotheRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/repository/DescriptionRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/repository/DescriptionRepositoryCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/repository/DescriptionRepositoryCustomImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/repository/ImageRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/repository/ImageRepositoryCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/repository/ImageRepositoryCustomImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/repository/SizeRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/repository/SizeRepositoryCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/repository/SizeRepositoryCustomImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/service/ClotheImageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/service/ClotheImageServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/service/ClotheService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/service/ClotheServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/service/MapClotheToDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/target/classes/ru/sotn/catalogservice/service/MapClotheToDtoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/classes/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/classes/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/classes/ru/sotn/eurekadiscoveryserver/EurekaDiscoveryServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/eureka-discovery-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/eureka-discovery-server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/surefire-reports/TEST-ru.sotn.eurekadiscoveryserver.EurekaDiscoveryServerApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/surefire-reports/ru.sotn.eurekadiscoveryserver.EurekaDiscoveryServerApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-discovery-server/target/test-classes/ru/sotn/eurekadiscoveryserver/EurekaDiscoveryServerApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatway-security-server/target/classes/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatway-security-server/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatway-security-server/target/classes/ru/sotn/gatwaysecurityserver/GatwaySecurityServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatway-security-server/target/classes/ru/sotn/gatwaysecurityserver/config/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatway-security-server/target/classes/ru/sotn/gatwaysecurityserver/rout/GatewayRotes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/classes/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/classes/ru/sotn/imageservice/ImageServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/classes/ru/sotn/imageservice/config/OAuth2FeignRequestInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/classes/ru/sotn/imageservice/config/RealmRoleConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/classes/ru/sotn/imageservice/config/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/classes/ru/sotn/imageservice/controller/ImageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/classes/ru/sotn/imageservice/feign/CatalogRestFeign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/classes/ru/sotn/imageservice/service/ImageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/classes/ru/sotn/imageservice/service/ImageServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/classes/ru/sotn/imageservice/sftp/SftpConnect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/image-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/image-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/surefire-reports/TEST-ru.sotn.imageservice.ImageServiceApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/surefire-reports/ru.sotn.imageservice.ImageServiceApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-service/target/test-classes/ru/sotn/imageservice/ImageServiceApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/target/classes/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/target/classes/ru/sotn/notificationservice/NotificationServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/target/classes/ru/sotn/notificationservice/config/AppProps.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/target/classes/ru/sotn/notificationservice/config/ConstKafka.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/target/classes/ru/sotn/notificationservice/model/OrderLineItemDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/target/classes/ru/sotn/notificationservice/model/PaymentDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/target/classes/ru/sotn/notificationservice/service/NotificationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/target/classes/ru/sotn/notificationservice/service/NotificationServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/OrderServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/config/ConstKafka.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/config/RealmRoleConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/config/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/config/WebClientConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/controller/PaymentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/controller/dto/OrderDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/controller/dto/OrderLineItemDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/domain/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/domain/OrderLineItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/exception/NotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/repository/OrderLineItemRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/repository/OrderRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/service/MapToDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/service/MapToDtoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/service/OrderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/service/PaymentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/ru/sotn/orderservice/service/PaymentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/SecurityServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/controller/AppUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/controller/config/JwkConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/controller/config/PasswordConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/controller/config/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/controller/config/UserAuthenticationProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/controller/dto/RoleToUserForm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/domain/AppUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/domain/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/exception/NotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/repository/AppUserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/repository/RoleRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/service/AppUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/service/AppUserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-server/target/classes/ru/sotn/securityserver/service/CustomUserDetailsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/model/UserBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/model/UserTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/repositoty/UserBalanceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/repositoty/UserTransactionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/service/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/TransactionServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/client/OrderTransactionClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/client/RequestCurrency.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/client/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/config/AppProps.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/config/ConstKafka.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/config/JwtContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/config/OrderUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/config/security/KeycloakConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/config/security/KeycloakGrantedAuthoritiesConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/config/security/ReactiveKeycloakJwtConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/config/security/RealmRoleConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/config/security/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/controller/TransactionOrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/model/CurrencyResponse$Info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/model/CurrencyResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/model/OrderDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/model/OrderLineItemDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/model/PaymentDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/service/ConvertCurrency.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/service/ConvertCurrencyImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/service/TransactionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/service/TransactionServiceKafkaSend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/target/classes/ru/sotn/transactionservice/stripe/StripeClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OnlineShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OnlineShop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/ru/sotn/catalogservice/CatalogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/ru/sotn/orderservice/service/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/ru/sotn/orderservice/service/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/client/OrderTransactionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/client/OrderTransactionClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/client/RequestCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/client/RequestCurrency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/client/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/client/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/ConsumerKafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/ConsumerKafkaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/KafkaProducerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/OrderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/config/OrderUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/controller/TransactionOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/controller/TransactionOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/model/CurrencyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/model/dto/CurrencyResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/model/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/model/dto/OrderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/model/OrderLineItemDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/model/dto/OrderLineItemDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/model/PaymentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/model/dto/PaymentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/service/ConvertCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/service/ConvertCurrency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/service/ConvertCurrencyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/service/ConvertCurrencyImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/service/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/service/TransactionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/service/TransactionServiceKafkaSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/ru/sotn/transactionservice/service/TransactionServiceKafkaSend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/test/java/ru/sotn/transactionservice/controller/TransactionOrderControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/test/java/ru/sotn/transactionservice/controller/TransactionOrderControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/src/test/java/ru/sotn/transactionservice/service/TransactionServiceKafkaSendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/test/java/ru/sotn/transactionservice/service/TransactionServiceKafkaSendTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction-service/transaction-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/transaction-service.iml" afterDir="false" />
-    </list>
+    <list default="true" id="1086e59d-9f91-4c73-945b-90bc8025ebc9" name="Changes" comment="fix all" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,6 +31,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -526,7 +345,7 @@
       <workItem from="1671537309744" duration="2438000" />
       <workItem from="1673292683783" duration="2199000" />
       <workItem from="1673382018748" duration="1030000" />
-      <workItem from="1673384059115" duration="989000" />
+      <workItem from="1673384059115" duration="1765000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667337346926</created>
@@ -584,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673384198986</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix all">
+      <created>1673385679569</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673385679569</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,7 +478,8 @@
     <MESSAGE value="fix2" />
     <MESSAGE value="fix3" />
     <MESSAGE value="add git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add git ignore" />
+    <MESSAGE value="fix all" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix all" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

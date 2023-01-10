@@ -10,3 +10,4 @@ postgres-catalog
 postgres_keycloak_data
 postgres-order
 realms
+*/target
