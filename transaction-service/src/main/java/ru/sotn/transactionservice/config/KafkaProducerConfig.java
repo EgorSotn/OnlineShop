@@ -10,7 +10,7 @@
 //import org.springframework.kafka.core.ProducerFactory;
 //import org.springframework.kafka.support.converter.StringJsonMessageConverter;
 //import org.springframework.kafka.support.serializer.JsonSerializer;
-//import ru.sotn.transactionservice.model.OrderDto;
+//import ru.sotn.transactionservice.model.dto.OrderDto;
 //
 //
 //import java.util.HashMap;

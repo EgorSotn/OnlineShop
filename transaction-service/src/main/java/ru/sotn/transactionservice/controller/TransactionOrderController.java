@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 import reactor.core.publisher.Mono;
-import ru.sotn.transactionservice.model.PaymentDto;
+import ru.sotn.transactionservice.model.dto.PaymentDto;
 import ru.sotn.transactionservice.service.TransactionService;
 
 

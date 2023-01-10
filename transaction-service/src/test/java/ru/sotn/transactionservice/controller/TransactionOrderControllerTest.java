@@ -1,6 +1,5 @@
 package ru.sotn.transactionservice.controller;
 
-import com.stripe.model.Charge;
 import lombok.val;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,16 +13,14 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.reactive.server.WebTestClient;
-import reactor.core.publisher.Mono;
-import ru.sotn.transactionservice.model.OrderLineItemDto;
-import ru.sotn.transactionservice.model.PaymentDto;
+import ru.sotn.transactionservice.model.dto.OrderLineItemDto;
+import ru.sotn.transactionservice.model.dto.PaymentDto;
 import ru.sotn.transactionservice.service.TransactionService;
 
 import java.math.BigDecimal;
 import java.util.Collections;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 import static org.springframework.security.test.web.reactive.server.SecurityMockServerConfigurers.*;

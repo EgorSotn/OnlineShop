@@ -4,7 +4,7 @@ import org.springframework.http.*;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
-import ru.sotn.transactionservice.model.CurrencyResponse;
+import ru.sotn.transactionservice.model.dto.CurrencyResponse;
 
 @Component
 

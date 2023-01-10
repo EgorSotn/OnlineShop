@@ -11,9 +11,9 @@ import reactor.core.publisher.Mono;
 import ru.sotn.transactionservice.config.OrderUtil;
 import ru.sotn.transactionservice.client.OrderTransactionClient;
 
-import ru.sotn.transactionservice.model.CurrencyResponse;
-import ru.sotn.transactionservice.model.OrderDto;
-import ru.sotn.transactionservice.model.PaymentDto;
+import ru.sotn.transactionservice.model.dto.CurrencyResponse;
+import ru.sotn.transactionservice.model.dto.OrderDto;
+import ru.sotn.transactionservice.model.dto.PaymentDto;
 import ru.sotn.transactionservice.stripe.StripeClient;
 
 

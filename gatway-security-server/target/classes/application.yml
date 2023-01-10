@@ -1,0 +1,58 @@
+server:
+  port: 8082
+eureka:
+#  instance:
+#    instance-id: ${spring.application.name}:${random.uuid}
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak-spring-gateway-client:
+            provider: my-provider
+            client-id: online-shope-microservice
+            client-secret: k2jG80A3sIoXbwPmuetfR89MBfIsPPjL
+            authorization-grant-type: authorization_code
+            redirect-uri: '{baseUrl}/login/oauth2/code/gateway'
+            scope: openid
+        provider:
+          my-provider:
+            jwk-set-uri: http://localhost:8888/auth/realms/online-shope-microservice-realm/protocol/openid-connect/certs
+            token-uri: http://localhost:8888/auth/realms/online-shope-microservice-realm/protocol/openid-connect/token
+            authorization-uri: http://localhost:8888/auth/realms/online-shope-microservice-realm/protocol/openid-connect/auth
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8888/auth/realms/online-shope-microservice-realm/protocol/openid-connect/certs
+#        opaquetoken:
+#          introspection-uri: http://localhost:8888/auth/realms/online-shope-microservice-realm/protocol/openid-connect/token/introspect
+#          client-secret: lwZ1VDObKRjyCT5GnoHhbmcvhmO7FrY6
+#          client-id: online-shope-microservice
+
+
+#  security:
+#    oauth2:
+#
+
+
+logging:
+  level:
+    org:
+      springframework:
+        security:
+          web: DEBUG

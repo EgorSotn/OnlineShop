@@ -15,7 +15,7 @@
 //import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 //
 //import org.springframework.kafka.support.converter.StringJsonMessageConverter;
-//import ru.sotn.transactionservice.model.OrderDto;
+//import ru.sotn.transactionservice.model.dto.OrderDto;
 //
 //import java.util.HashMap;
 //import java.util.Map;

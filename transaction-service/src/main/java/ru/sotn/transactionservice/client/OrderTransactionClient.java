@@ -3,21 +3,15 @@ package ru.sotn.transactionservice.client;
 
 
 
-import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.PostMapping;
-
-import org.springframework.web.bind.annotation.RequestParam;
 
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 
 import ru.sotn.transactionservice.config.JwtContext;
-import ru.sotn.transactionservice.model.CurrencyResponse;
-import ru.sotn.transactionservice.model.OrderDto;
+import ru.sotn.transactionservice.model.dto.OrderDto;
 
 //@ReactiveFeignClient("order-service")
 @Component

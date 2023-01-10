@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 import reactor.core.publisher.Mono;
 import ru.sotn.transactionservice.client.RequestCurrency;
-import ru.sotn.transactionservice.model.CurrencyResponse;
+import ru.sotn.transactionservice.model.dto.CurrencyResponse;
 
 
 @Service

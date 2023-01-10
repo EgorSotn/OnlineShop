@@ -1,0 +1,9 @@
+ru\sotn\imageservice\config\OAuth2FeignRequestInterceptor.class
+ru\sotn\imageservice\feign\CatalogRestFeign.class
+ru\sotn\imageservice\ImageServiceApplication.class
+ru\sotn\imageservice\sftp\SftpConnect.class
+ru\sotn\imageservice\controller\ImageController.class
+ru\sotn\imageservice\service\ImageService.class
+ru\sotn\imageservice\service\ImageServiceImpl.class
+ru\sotn\imageservice\config\RealmRoleConverter.class
+ru\sotn\imageservice\config\SecurityConfig.class

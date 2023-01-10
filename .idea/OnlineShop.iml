@@ -2,7 +2,21 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.idea/ZeppelinRemoteNotebooks" />
+      <excludeFolder url="file://$MODULE_DIR$/postgres_keycloak_data/pg_logical/mappings" />
+      <excludeFolder url="file://$MODULE_DIR$/postgres_keycloak_data/pg_logical/snapshots" />
+      <excludeFolder url="file://$MODULE_DIR$/postgres_keycloak_data/pg_wal/archive_status" />
+      <excludeFolder url="file://$MODULE_DIR$/postgres_keycloak_data/pg_commit_ts" />
+      <excludeFolder url="file://$MODULE_DIR$/postgres_keycloak_data/pg_dynshmem" />
+      <excludeFolder url="file://$MODULE_DIR$/postgres_keycloak_data/pg_notify" />
+      <excludeFolder url="file://$MODULE_DIR$/postgres_keycloak_data/pg_replslot" />
+      <excludeFolder url="file://$MODULE_DIR$/postgres_keycloak_data/pg_serial" />
+      <excludeFolder url="file://$MODULE_DIR$/postgres_keycloak_data/pg_snapshots" />
+      <excludeFolder url="file://$MODULE_DIR$/postgres_keycloak_data/pg_stat_tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/postgres_keycloak_data/pg_tblspc" />
+      <excludeFolder url="file://$MODULE_DIR$/postgres_keycloak_data/pg_twophase" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

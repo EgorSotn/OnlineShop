@@ -2,8 +2,8 @@ package ru.sotn.transactionservice.config;
 
 
 import org.springframework.stereotype.Component;
-import ru.sotn.transactionservice.model.OrderDto;
-import ru.sotn.transactionservice.model.OrderLineItemDto;
+import ru.sotn.transactionservice.model.dto.OrderDto;
+import ru.sotn.transactionservice.model.dto.OrderLineItemDto;
 
 import java.math.BigDecimal;
 

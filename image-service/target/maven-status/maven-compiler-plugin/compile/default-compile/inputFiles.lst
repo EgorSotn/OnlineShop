@@ -1,0 +1,11 @@
+D:\Poject_ALL\OnlineShop\image-service\src\main\java\ru\sotn\imageservice\config\SecurityConfig.java
+D:\Poject_ALL\OnlineShop\image-service\src\main\java\ru\sotn\imageservice\controller\ImageController.java
+D:\Poject_ALL\OnlineShop\image-service\src\main\java\ru\sotn\imageservice\config\RealmRoleConverter.java
+D:\Poject_ALL\OnlineShop\image-service\src\main\java\ru\sotn\imageservice\service\ImageService.java
+D:\Poject_ALL\OnlineShop\image-service\src\main\java\ru\sotn\imageservice\service\ImageServiceImpl.java
+D:\Poject_ALL\OnlineShop\image-service\src\main\java\ru\sotn\imageservice\config\ConstKafka.java
+D:\Poject_ALL\OnlineShop\image-service\src\main\java\ru\sotn\imageservice\config\ConsumerKafkaConfig.java
+D:\Poject_ALL\OnlineShop\image-service\src\main\java\ru\sotn\imageservice\config\OAuth2FeignRequestInterceptor.java
+D:\Poject_ALL\OnlineShop\image-service\src\main\java\ru\sotn\imageservice\sftp\SftpConnect.java
+D:\Poject_ALL\OnlineShop\image-service\src\main\java\ru\sotn\imageservice\ImageServiceApplication.java
+D:\Poject_ALL\OnlineShop\image-service\src\main\java\ru\sotn\imageservice\feign\CatalogRestFeign.java

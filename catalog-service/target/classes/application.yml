@@ -1,0 +1,48 @@
+server:
+  port: 8090
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
+
+
+spring:
+
+  application:
+    name: catalog-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/ClothesDB
+    username: postgres
+    password: westa852
+  sql:
+    init:
+      mode: always
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        show_sql: true
+  security:
+    oauth2:
+      resourceserver:
+#        opaquetoken:
+#          introspection-uri: http://localhost:8888/auth/realms/online-shope-microservice-realm/protocol/openid-connect/token/introspect
+#          client-id: online-shope-microservice
+#          client-secret: lwZ1VDObKRjyCT5GnoHhbmcvhmO7FrY6
+        jwt:
+          jwk-set-uri: http://localhost:8888/auth/realms/online-shope-microservice-realm/protocol/openid-connect/certs
