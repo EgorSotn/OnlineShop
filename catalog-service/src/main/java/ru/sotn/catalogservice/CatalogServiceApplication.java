@@ -12,8 +12,7 @@ import org.springframework.context.ApplicationContext;
 public class CatalogServiceApplication {
 
     public static void main(String[] args) {
-        //tests
-        //sfsf
+        //frsdgdhgfjhktrgfewdqwaesrdgtfhygju
         ApplicationContext context = SpringApplication.run(CatalogServiceApplication.class, args);
     }
 
